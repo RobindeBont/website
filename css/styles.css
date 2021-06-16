@@ -1,0 +1,79 @@
+body {
+    background: linear-gradient(0deg, #fff, 50%, #DEEEFE);
+    font-family: 'Rubik', sans-serif;
+    background: #B7B7A4;
+    height: 100 !important;
+}
+
+::selection {
+    background-color: #A5A58D;
+    color: white;
+}
+
+h1, h5, nav, a {
+    font-family: 'Mate SC', serif;
+}
+
+nav {
+    font-size: 22px;
+    background: #A5A58D !important;
+}
+
+.btn-primary {
+    background: #CB997E;
+    border-color: white;
+}
+
+.btn-primary:hover {
+    background: #DDBEA9 ;
+    border-color:#FFE8D6;
+}
+
+a {
+    transition: ease .2s;
+}
+
+a:hover {
+    color: #FFE8D6 !important;
+    transition: ease .2s;
+}
+
+.h5 {
+    line-height: 1.8em !important;
+    font-size: 16px;
+}
+
+h5.card-title {
+    font-size: 22px;
+}
+
+h1 {
+    font-size: 44px;
+    text-transform: uppercase;
+}
+
+ol.breadcrumb {
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.breadcrumb {
+    background: #FFE8D6;
+    color: #6B705C;
+}
+
+.breadcrumb a {
+    color: #CB997E;
+}
+
+.breadcrumb a:hover {
+    color: #B7B7A4 !important;
+}
+
+.bg-custom {
+    background-color: #CB997E;
+}
+
+.jumbotron, .card-body {
+   background: #FFE8D6;
+}
